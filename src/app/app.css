@@ -1,0 +1,156 @@
+html, body {
+  font-family: "Noto Sans", "Noto Sans CJK TC", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden; 
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1.title.title {
+  font-size: 45px;
+  font-weight: normal;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #515151;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+section {
+  position: relative;
+}
+
+section:nth-child(2n+1) {
+  color: #FFFFFF;
+}
+
+section:nth-child(2n+1) h1 {
+  font-size: 25px;
+  padding-top: 38px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+
+section:nth-child(2n+2) {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.41);
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* nav */
+.navbar {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.nav {
+  height: 50px;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: space-between;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.nav > *:first-child {
+  margin-left: 20px;
+}
+
+.nav > *:last-child {
+  margin-right: 20px;
+}
+
+.nav a {
+  color: #515151;
+  padding-right: 38px;
+}
+.nav a:last-child {
+  padding-right: 0px;
+}
+
+.nav a:after {
+  content: '';
+}
+
+/* content */
+body {
+  background: #2EBD9B;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 26px;
+  padding-left: 20px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #898989;
+}
+
+.head {
+  border-bottom: 1px solid #393939;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row > div  {
+  flex: 1;
+}

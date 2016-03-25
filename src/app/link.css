@@ -1,0 +1,18 @@
+.link {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  cursor: pointer;
+  color: #00A9CE;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link:after {
+  content: '．';
+  cursor: default;
+}
+
+.link:last-child:after {
+  content: ''
+}
